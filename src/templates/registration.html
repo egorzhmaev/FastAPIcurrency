@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <script type="text/javascript" src="static/script.js"></script>
+</head>
+<body>
+
+<h1>Регистрация</h1>
+
+<form>
+    <label>Email</label>
+    <input id="username" type="text" name="username" value="{{ username }}" required>
+
+    <br>
+
+    <p><label>Password</label></p>
+    <input  id="password" type="password" name="password" value="{{ password }}" required>
+
+    <br>
+    <button type="button" onClick="registration()">Регистрация</button>
+</form>
+
+
+{% include '_site_map.html' %}
+
+</body>
+</html>
