@@ -10,3 +10,5 @@
 - HTML страницы с CSS и JavaScript для отображения данных.
 - Jinja для шаблонизации HTML страниц.
 - Запуск приложения с использованием uvicorn.
+
+![pic1](https://github.com/egorzhmaev/FastAPIcurrency/blob/master/2024-04-09_23-27-42.png)
