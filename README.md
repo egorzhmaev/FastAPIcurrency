@@ -21,8 +21,14 @@
   ```
 
 ### 2. Конфигурация среды
-- Переименуйте файл `.env.example` на `.env` в корне проекта и заполните необходимые конфиденциальные переменные:
+- Заполните env.dev необходимыми данными:
     ```
+    DB_HOST=
+    DB_PORT=
+    DB_NAME=
+    DB_USER=
+    DB_PASS=
+    
     CURRENCY_API_KEY=your_api_key
     SECRET_KEY=your_secret_key
     ```
